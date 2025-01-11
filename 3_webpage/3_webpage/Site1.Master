@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="_3_webpage.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form2" runat="server">
+        <div class="container">
+            <!-- Common Header -->
+            <header>
+                <div class="logo">
+                    <h1>Progress Telerik</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Enterprise</a></li>
+                        <li><a href="#">Free Trials</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Support & Learning</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Your Account</a></li>
+                    </ul>
+                </nav>
+            </header>
+    
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <img src="img/3.jpg" style="width: 1462px; height: 394px" />
+            </asp:ContentPlaceHolder>
+      
+        </div>
+    </form>
+   
+</body>
+</html>
